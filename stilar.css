@@ -1,0 +1,29 @@
+body {
+	margin:0;
+}
+.sumar {
+    display: none;
+}
+.sumar h1 {
+	font-size: 5em;
+	color: #ffa;
+}
+.haust {
+	display: none;
+}
+.vor {
+	display: none;
+}
+.vetur {
+	background: linear-gradient(to top left,  white, blue);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+  	margin: 0;
+  	padding: 0;
+  
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}

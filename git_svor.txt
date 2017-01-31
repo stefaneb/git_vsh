@@ -1,0 +1,40 @@
+﻿  #Git spurningar og svör
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd "cd" færir hvar maður er vinna í (It changes the directory.)
+	cd ~ "cd ~" fer beint á heimasvæði, þetta er notað til þess að maður þurfi ekki að skrifa slóðina í hvert skiptið eða þegar maður vill finna hvar heimasvæðið er.
+	ls "ls" sýnir lista af innihaldi slóðarinnar sem notandi er á.
+	pwd "pwd" sýnir full nafn slóðarinnar sem maður er að vinn á.
+	mkdir "mkdir" er stytting á "make directory" og býr til skrá á skráarkerfi.
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone "git clone" afritar skrá frá ákveðnum stað á drifið okkar.
+	git log "git log" sýnir lista af öllum skipununm sem er búið að skuldbinda á slóðinni og það sýnir líka upplýsingar eins og notandanafn, dagsetningu og tíma.
+	git status "git status" sýnir manni stöðu af skrám og sýnir hvort einhverjar breytingar hafa verið gerðar síðan það var notað "git commit"
+	git diff "git diff" sýnir muninn á working tree og index
+	git checkout "git checkout" skiptir um slóðir / fer á aðra slóð
+
+	3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff - sýnir muninn á working tree og index
+	b) git diff --staged - sýnir muninn á því sem er ekki komið inn á working skjalinu og því sem var commuitað
+	c) git diff commit1 commit2 - sýnir muninn á breytingunum sem voru gerðar í commit1 og commit2
+
+4. 	Hvað er útgáfustýring (e.version control)? 
+	
+
+5.	Hverjir eru helstu kostir við að nota GIT?
+	Það sem er svo frábært við Git er að það geta margir unnið í einu verkefni á sama tíma og maður ræður hverju maður vill bæta við aðal strauminn (masterinn).
+
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+	Í hvert skipti sem þú gerir einhverja breytingu sem manneskjan sem skoðar commit, þyrfti að skilja.
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+	Working directory er slóðin sem maður er að vinna á, staging area er svæði sem maður prufar skipannir áður en maður gerir þær opinberlegar... Það væri hægt að kalla þetta testing area. Repository er staður sem maður geymir gögnin sín.
+
+8.	Hvenær er sniðugt að nota greinar (branches)? 
+	Þegar fólk ætlar að gera hluti sem geta verið useful eða bara til að framleiða smokka, ég veit varla muninn.
+
+9.	Hver fann upp GIT?
+	Linus Torvalds
+
+10.	Hvar er GIT helst notað?
+	Þegar það er verið að hanna forrit og "öpp" sem margir eru að vinna á.
